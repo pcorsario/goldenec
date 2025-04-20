@@ -32,6 +32,7 @@ protected static ?string $maxHeight = '100px'; // Tamaño
             ->path('admin')
             ->login()
             // ->brandName('GoldenBrain')
+            ->registration()
             ->brandLogo(asset('images/LogoGB-sf.png'))
             ->brandLogoHeight('3rem')
             ->colors([

@@ -31,3 +31,15 @@
     @endif
 </body>
 </html>
+
+
+<header><h1>Unidad Educativa Alessandro Volta</h1></header>  
+<nav>  
+  <a href="/inicio/">Inicio</a>  
+  <a href="/mision/">Misión</a>  
+  <a href="/valores/">Valores</a>  
+</nav>  
+{% block content %}{% endblock %}  
+
+
+
